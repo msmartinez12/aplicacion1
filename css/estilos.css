@@ -1,27 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     background: #f2f2f2;
 }
-
-header.cabecera{
-    color: #ff0000;
-    font-size: 15px;
-    padding: 1em;
-    background: #000;
+header{
+    color: #0e1da7;
+    font-size: 25px;
+    background: rgb(17, 16, 16);
     width: 90%;
-    margin: 0 auto
-}
-
-nav{
-    background-color: aqua;
+    margin: 0 auto;
     text-align: center;
-    padding: 1em;
 }
-footer{
-    background-color: cadetblue;
+header.cabecera h1{
+    padding: 1em 1em;
 }
 
 aside{
+    background-color: indianred;
+    text-align: center;
+    margin-left: 5%;
+    width: 20%;
+    height: 400px;
+    display: inline-block;
+}
+
+
+section{
+    background: chocolate;
+    font-size: 22px;
+    text-align: center;
+    display: inline-block;
+    width: 70%;
     margin: auto;
-    float: right;
-    width: 40%
+}
+.article{
+    background: rgb(63, 16, 90);
+    font-size: 20px;
+    display: inline-block;
+    height: auto;
+}
+
+
+nav{
+    width: 90%;
+    margin: 0 auto;
+    height: 35px;
+    background: whitesmoke;
+    text-align: center;
+    background-color: rgb(187, 80, 101);
+    display: flex;
+    justify-content: space-around;
+}
+main{
+    display: inline-block;
+    height: 350px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+footer{
+    background-color: rgb(192, 53, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 80px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: large;
 }
