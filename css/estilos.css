@@ -18,5 +18,10 @@ nav{
 }
 footer{
     background-color: cadetblue;
-    padding: 5px;
+}
+
+aside{
+    margin: auto;
+    float: right;
+    width: 40%
 }
